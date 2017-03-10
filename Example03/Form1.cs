@@ -55,7 +55,7 @@ namespace Example03
             this.product2Button.Text = "油條";
             this.accountButton.Text = "結帳";
 
-            if (this.order != null)
+            /*if (this.order != null)
             {
                 product1Button.Enabled = true;
                 product2Button.Enabled = true;
@@ -69,6 +69,11 @@ namespace Example03
                 orderButton.Enabled = true;
                 orderRichTextBox.Text = string.Empty;
             }
+            */
+            product1Button.Enabled = this.order != null;
+            product2Button.Enabled = this.order != null;
+            orderButton.Enabled = this.order == null;
+            this.orderRichTextBox.Text = this.order != null ? this.order.GetDetail() : string.Empty;
         }
 
         private void accountButton_Click(object sender, EventArgs e)
