@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoreLibrary
 {
-     public class Order
+    public class Order
     {
         public int Id;
         public Customer Customer;
@@ -30,12 +30,10 @@ namespace StoreLibrary
 
             foreach (Product p in this.ProductList)
             {
-                orderDetail += string.Format("{0}: {1}元\n", p.Name, p.Price
-);
+                orderDetail += string.Format("{0}: {1}元\n", p.Name, p.Price);
             }
             orderDetail += string.Format("結帳金額:{0}", GetTotal());
             return orderDetail;
         }
     }
-}
 }

@@ -75,7 +75,7 @@ namespace Example03
         {
             MessageBox.Show(string.Format("{0}, 結帳金額:{1},謝謝惠顧", this.order.Customer.Name, this.order.GetTotal()));
             this.order = null;
-            RenderScreen()
+            RenderScreen();
         }
 
         private void tableComboBox_SelectedIndexChanged(object sender, EventArgs e)
