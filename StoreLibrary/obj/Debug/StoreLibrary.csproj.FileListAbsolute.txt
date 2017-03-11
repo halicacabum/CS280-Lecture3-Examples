@@ -3,3 +3,8 @@ D:\CSharp-Projects\CS280-Lecture3-Examples\StoreLibrary\bin\Debug\StoreLibrary.d
 D:\CSharp-Projects\CS280-Lecture3-Examples\StoreLibrary\bin\Debug\StoreLibrary.pdb
 D:\CSharp-Projects\CS280-Lecture3-Examples\StoreLibrary\obj\Debug\StoreLibrary.dll
 D:\CSharp-Projects\CS280-Lecture3-Examples\StoreLibrary\obj\Debug\StoreLibrary.pdb
+D:\CSharp\CS280-Lecture3-Examples\StoreLibrary\bin\Debug\StoreLibrary.dll
+D:\CSharp\CS280-Lecture3-Examples\StoreLibrary\bin\Debug\StoreLibrary.pdb
+D:\CSharp\CS280-Lecture3-Examples\StoreLibrary\obj\Debug\StoreLibrary.csprojResolveAssemblyReference.cache
+D:\CSharp\CS280-Lecture3-Examples\StoreLibrary\obj\Debug\StoreLibrary.dll
+D:\CSharp\CS280-Lecture3-Examples\StoreLibrary\obj\Debug\StoreLibrary.pdb

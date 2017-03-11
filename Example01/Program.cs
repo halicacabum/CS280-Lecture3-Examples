@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CS280_Homework_2
+
 
 namespace Example01
 {
@@ -10,6 +12,10 @@ namespace Example01
     {
         private static void Main(string[] args)
         {
+            Pokemon[] pokemons = new Pokemon[3];
+            pokemons[0] = new Pokemon();
+            pokemons[1] = new Pokemon();
+            pokemons[2] = new Pokemon();
         }
     }
 }
